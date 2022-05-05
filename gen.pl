@@ -63,7 +63,7 @@ while(<>) {
 		$cells = 0;
 		print "|\n";
 	}
-	print $fh "module\n";
+	print $fh "$full_module\n";
 	close $fh;
 }
 
