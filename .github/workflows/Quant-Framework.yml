@@ -1,7 +1,9 @@
 name : Quant-Framework
 
 on:
-  push: *
+  push:
+  schedule:
+    - cron: 0 12 * * *
 
 jobs:
   perl:
