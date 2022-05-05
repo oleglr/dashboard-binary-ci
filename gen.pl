@@ -27,7 +27,7 @@ END
 
 my @badges = ();
 
-print "| :module: | :module: | :module: | :module: | :module: |\n";
+print "| :camel: | :camel: | :camel: | :camel: | :camel: |\n";
 print "|  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |\n";
 my $cells = 0;
 
