@@ -1,8 +1,7 @@
 name : Apigee-Edge
 
 on:
-  schedule:
-    - cron: 0 12 * * *
+  push: *
 
 jobs:
   perl:

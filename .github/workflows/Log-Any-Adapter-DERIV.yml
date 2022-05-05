@@ -1,8 +1,7 @@
 name : Log-Any-Adapter-DERIV
 
 on:
-  schedule:
-    - cron: 0 12 * * *
+  push: *
 
 jobs:
   perl:
