@@ -3,3 +3,4 @@
 
 ## Fixed
 - [RateLimitations](https://metacpan.org/pod/RateLimitations) - depends on [Time::Duration::Concise::Localize](https://metacpan.org/pod/Time::Duration::Concise::Localize) (fixed above) and "Time::Duration::Concise" which seems not in CPAN at all 
+- [Date::Utility](https://metacpan.org/pod/Date::Utility) - depends on depends on [Time::Duration::Concise::Localize](https://metacpan.org/pod/Time::Duration::Concise::Localize) (fixed above)
