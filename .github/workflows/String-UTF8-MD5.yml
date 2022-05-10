@@ -1,9 +1,8 @@
 name : String-UTF8-MD5
 
 on:
-  push:
   schedule:
-    - cron: 0 12 * * *
+    - cron: 42 4 * * 1
 
 jobs:
   perl:

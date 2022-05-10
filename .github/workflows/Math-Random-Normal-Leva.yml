@@ -1,9 +1,8 @@
 name : Math-Random-Normal-Leva
 
 on:
-  push:
   schedule:
-    - cron: 0 12 * * *
+    - cron: 42 4 * * 1
 
 jobs:
   perl:
