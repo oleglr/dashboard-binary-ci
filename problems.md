@@ -7,3 +7,4 @@
 
 ## Partially broken
 - [Crypt::NamedKeys](https://metacpan.org/pod/Crypt::NamedKeys) is broken in CPAN and cpan-private **with recent perl interpreter*
+- [Email::Stuffer::TestLinks](https://github.com/binary-com/perl-Email-Stuffer-TestLinks) is using `success` method [removed in Mojolicious 9](https://github.com/mojolicious/mojo/wiki/Upgrading#mojotransaction-success-removed) - Need backward compatible fix (Deriv does not use Mojolicious 9)
