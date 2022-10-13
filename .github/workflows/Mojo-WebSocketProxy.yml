@@ -1,8 +1,9 @@
 name : Mojo-WebSocketProxy
 
 on:
-  schedule:
-    - cron: 42 4 * * 1
+  push
+  #schedule:
+  #  - cron: 42 4 * * 1
 
 jobs:
   perl:
@@ -14,4 +15,4 @@ jobs:
       - name: perl -V
         run: perl -V
       - name: Install module
-        run: curl -L https://cpanmin.us | perl - --configure-timeout=1920 Mojo::WebSocketProxy
+        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure --test --configure-timeout=1920 --no-retry Mojo::WebSocketProxy

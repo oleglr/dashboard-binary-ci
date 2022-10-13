@@ -6,8 +6,9 @@
 
 my $startyml = << "END";
 on:
-  schedule:
-    - cron: 42 4 * * 1
+  push
+  #schedule:
+  #  - cron: 42 4 * * 1
 
 jobs:
   perl:
@@ -54,7 +55,7 @@ while(<>) {
 		print $fh "        run: sudo apt-get install @debs\n";
 	}
 	print $fh $endyml;
-	print $fh "        run: curl -L https://cpanmin.us | perl - --configure-timeout=1920 ";
+	print $fh "        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure --test --configure-timeout=1920 --no-retry ";
 	print "| [![$module](https://github.com/thibault-deriv/dashboard-binary-ci/workflows/$module/badge.svg)](https://github.com/thibault-deriv/dashboard-binary-ci/actions?query=workflow%3A$module) ";
 	$cells ++;
 
