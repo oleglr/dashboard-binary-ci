@@ -33,9 +33,9 @@ Log::Any::Adapter::DERIV
 Log::Log4perl::AutoInit
 Machine::Epsilon
 Math::BivariateCDF
-Math::Business::Blackscholes::Binaries
+Math::Business::BlackScholes::Binaries
 Math::Business::BlackScholes::Binaries::Greeks
-Math::Business::BlackscholesMerton
+Math::Business::BlackScholesMerton
 Math::Function::Interpolator
 Math::Gauss::XS
 Math::Random::Normal::Leva
