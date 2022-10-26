@@ -9,4 +9,4 @@
 ## Has a fix
 - ~[RateLimitations](https://metacpan.org/pod/RateLimitations) - depends on [Time::Duration::Concise::Localize](https://metacpan.org/pod/Time::Duration::Concise::Localize) (fixed above) and "Time::Duration::Concise" which seems not in CPAN~
 - ~Time::Duration::Concise::Localize] released to CPAN october 2022 [Date::Utility](https://metacpan.org/pod/Date::Utility) - depends on depends on [Time::Duration::Concise::Localize](https://metacpan.org/pod/Time::Duration::Concise::Localize) (fixed above)~
-- Log::Any::Adapter::DERIV has broken test, fixed in [#14](https://github.com/binary-com/perl-Log-Any-Adapter-DERIV/pull/14)
+- [Log::Any::Adapter::DERIV](https://metacpan.org/pod/Log::Any::Adapter::DERIV) has broken test, fixed in [#14](https://github.com/binary-com/perl-Log-Any-Adapter-DERIV/pull/14)
